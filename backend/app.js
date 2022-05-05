@@ -2,6 +2,9 @@ const express = require('express');
 const mongoose = require('mongoose');
 
 const stuffRoutes = require('./routes/stuff');
+const userRoutes = require('./routes/user');
+
+const path = require('path');
 
 mongoose
   .connect(
@@ -29,8 +32,11 @@ app.use((req, res, next) => {
 // Allow API access to requests json bodies
 app.use(express.json());
 
-// Assign path to the stuff routes
+// Assign path to the routes
 app.use('/api/stuff', stuffRoutes);
+app.use('/api/auth', userRoutes);
+
+app.use('/images', express.static(path.join(__dirname, 'images')));
 
 // --- Exports app ---
 module.exports = app;
