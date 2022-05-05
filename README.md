@@ -6,8 +6,8 @@ I'm training to create my first backend with Node.js / Express / MongoDB
 
 ### Built with
 
-Backend : Node.js / Express / MongoDB
-Front : Angular
+Backend : Node.js / Express / MongoDB  
+Front : Angular  
 
 ## Getting Started
 
