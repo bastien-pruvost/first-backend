@@ -1,0 +1,18 @@
+{
+  "name": "my-first-backend",
+  "version": "1.0.0",
+  "description": "I'm training to create my first backend with Node.js / Express / MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dev-BastienPruvost/my-first-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dev-BastienPruvost/my-first-backend/issues"
+  }
+}
