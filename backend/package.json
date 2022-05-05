@@ -14,5 +14,9 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Dev-BastienPruvost/my-first-backend/issues"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.3.2"
   }
 }
