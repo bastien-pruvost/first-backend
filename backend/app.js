@@ -8,7 +8,7 @@ const path = require('path');
 
 mongoose
   .connect(
-    'mongodb+srv://admin-bastien:bast-db-password@my-first-db.2scc6.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
+    'mongodb+srv://public:public-password@my-first-db.2scc6.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
   .then(() => console.log('Connexion a MongoDB réussie !'))
